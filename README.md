@@ -12,6 +12,11 @@ To run this project, you will need Python installed on your machine, along with 
    ```bash
    python bikeshare.py
 
+## 📋 Requirements
+* Python 3.x
+* `pandas` library
+* `numpy` library
+
 ## 🤝 Credits
 * [Udacity](https://www.udacity.com) - For the project template and guidance.
 * [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/) - For helpful data manipulation resources.
