@@ -106,7 +106,8 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
     print(f'Most Common Start Hour: {popular_hour}')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
+
     print('-'*40)
 
 
@@ -129,7 +130,8 @@ def station_stats(df):
     popular_combination = df['Start End Combination'].mode()[0]
     print(f'Most Common Trip: {popular_combination}')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
+
     print('-'*40)
 
 
@@ -147,7 +149,8 @@ def trip_duration_stats(df):
     mean_travel_time = df['Trip Duration'].mean()
     print(f'Mean Travel Time: {round(mean_travel_time, 2)} seconds')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
+
     print('-'*40)
 
 
@@ -182,7 +185,8 @@ def user_stats(df):
     else:
         print('\nBirth year data not available for this city.')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {time.time() - start_time} seconds.")
+
     print('-'*40)
 
 
